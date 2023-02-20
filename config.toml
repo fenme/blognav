@@ -1,4 +1,4 @@
-baseURL = "https://blognav.fanma.eu.org"
+baseURL = "/"
 DefaultContentLanguage = "zh-cn" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "zh-cn"
 title = "博客导航"
