@@ -1,0 +1,35 @@
+<div id="nav" class="nav">
+    <div class="nav-top">
+        <div class="logo">
+            <div class="logo-w"><a href="/"><span class="b"><span class="bb">B</span></span><h1 class="title">{{.Title}}</h1></a></div>
+        </div>
+        <div class="menu">
+            {{ define "menu" }}
+            {{ $page := .page }}
+            {{ with .entry }}
+              {{ if .HasChildren }}
+                <li>
+                    <a href="#{{ .Name }}" onclick="onNavClick(`#{{ .Name }}`)" id="{{ .Name }}`">{{ .Pre }}<span class="title">{{ .Name }}</span><span class="nav-svg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path></svg></span></a>
+                  <ul class="sub-menu">
+                    {{ range .Children }}
+                      {{ template "menu" (dict "entry" . "page" $page) }}
+                    {{ end }}
+                  </ul>
+                </li>
+              {{ else }}
+                <li>
+                    <a href="#{{ .Name }}" onclick="onNavClick(`#{{ .Name }}`)" id="{{ .Name }}`">{{ .Pre }}<span class="title">{{ .Name }}</span><span class="nav-svg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path></svg></span></a>
+                </li>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          <ul id="main-menu" class="main-menu">
+            {{ $page := . }}
+            {{ range .Site.Menus.main }}
+              {{ template "menu" (dict "entry" . "page" $page) }}
+            {{ end }}
+          </ul>
+        </div>
+		{{- partial "info.html" . -}}
+    </div>
+</div>

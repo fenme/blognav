@@ -1,0 +1,102 @@
+[wordCount]
+  other = '约 {{ .WordCount }} 字'
+[zongji]
+  other = '网站总计：'
+[total]
+  other = '约 {{ .Nums }} 字'
+[Article]
+  other = '约 {{ .Nums }}  篇文章'
+[readingTime]
+  one = '预计阅读 1 分钟'
+  other = '预计阅读 {{.Count}} 分钟'
+[fanmareadTime]
+  one = '阅读需要'
+  other = '阅读需要'
+[format_date]
+  one = '{{ .Format "2006-01-02" }}'
+  other = '{{ .Format "2006-01-02" }}'
+[format_date_tosec]
+  one = '{{ .Format "2006-01-02 15:04" }}'
+  other = '{{ .Format "2006-01-02 15:04" }}'
+[last_mod_on]
+  other = '最近修改日期 {{ .Format "2006-01-02" }}'
+[LastChange]
+  other = '最近更新：{{ .Format "2006年01月02日" }}'
+[category]
+  other = '分类：'
+[tags]
+  other = '标签：'
+[toc_title]
+  other = '目录 Contents'
+[prev_link]
+  other = '上一篇'
+[next_link]
+  other = '下一篇'
+[prevpage]
+  other = '上一页'
+[nextpage]
+  other = '下一页'
+[homepage]
+  other = '首页'
+[lastpage]
+  other = '最后一页'
+[no_newer_article]
+  other = '前面没有新文章了。'
+[no_older_article]
+  other = '这是最早发布的文章了。'
+[blogsite]
+  other = '博客网'
+[fani]
+  other = ' - '
+[Last]
+  other = '最后一页'
+[fanma]
+  other = 'FanMa'
+[fanmazh]
+  other = '饭吗'
+[author]
+  other = '作者：'
+[authorname]
+  other = '黄胜丰'
+[huangshengfeng]
+  other = 'Huang Sheng Feng'
+[sitelink]
+  other = '网站：'
+[dizhi]
+  other = '地址：'
+[address]
+  other = '广西壮族自治区富川瑶族自治县新华乡上坝村'
+[articletitle]
+  other = '标题：'
+[articlelink]
+  other = '链接：'
+[blogfanma]
+  other = '这是一个纪实生活博客网'
+[blog]
+  other = ' Blog'
+[fanmanav]
+  other = '饭吗！一个纪实博客网'
+[PageNumber]
+  other = ' Page - 第 {{ .Num }} 页'
+[timeds]
+  other = '天'
+[timehs]
+  other = '小时'
+[timems]
+  other = '分'
+[timess]
+  other = '秒'
+[tagscount]
+  other = '{{ .Nums }} 个'
+[Sections]
+  other = '{{ .Nums }} 个'
+[RegularPages]
+  other = '{{ .Nums }} 个'
+[ge]
+  other = '个'
+[pian]
+  other = '篇'
+[lanmushuliang]
+  other = '栏目数量：'
+[shoulu]
+  other = '收录网站：'

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="content">
+    <div class="column">
+        <h2 id="优秀博客">{{- partial "svg.html" . -}}优秀博客{{ i18n "blogsite" }}</h2>
+        {{- partial "common.html" . -}}
+        <h2 id="博客推荐">{{- partial "svg.html" . -}}博客推荐</h2>
+        {{- partial "recommend.html" . -}}
+        <h2 id="博客导航">{{- partial "svg.html" . -}}博客导航</h2>
+        {{- partial "blognav.html" . -}}
+        <h2 id="博客框架">{{- partial "svg.html" . -}}博客框架</h2>
+        {{- partial "frame-hot.html" . -}}
+        <h2 id="博主收藏">{{- partial "svg.html" . -}}博主收藏</h2>
+        {{- partial "collects.html" . -}}
+    </div>
+</div>
+{{ end }}

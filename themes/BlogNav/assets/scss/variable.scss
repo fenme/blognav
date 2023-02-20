@@ -1,0 +1,148 @@
+$color: #ffffff;
+$black: #000000;
+$color-fanma: #12a0b5;
+$color-link:#1978b8;
+$color-linkt: #1976d2;
+$background: #12a0b5;
+$color-text: #000000;
+
+
+$tomato: #FF6347;
+$orange: #FFA500;
+$dodgerblue: #1E90FF;
+$mediumseagreen: #3CB371;
+$gray: #808080;
+$slateblue: #6A5ACD;
+$violet: #EE82EE;
+$lightGray: #D3D3D3;
+
+$color-primary-dark-1: #052b58;
+$color-primary-dark-a: #275185;
+$color-info-light-a: #fafafa;
+$color-info-light-b: #f0f0f0;
+$color-info-light-c: #e0e0e0;
+
+$color-fanma-light-3: #51cadd;
+$color-fanma-light-5: #57c5d6;
+$color-fanma-light-7: #9ef0fd;
+$color-fanma-light-8: #bef6ff;
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-primary: #509eff;
+$color-primary-light-3: #79bbff;
+$color-primary-light-5: #a0cfff;
+$color-primary-light-7: #c6e2ff;
+$color-primary-light-8: #d9ecff;
+$color-primary-light-9: #ecf5ff;
+$color-primary-dark-2: #337ecc;
+$color-success: #67c23a;
+$color-success-light-3: #95d475;
+$color-success-light-5: #b3e19d;
+$color-success-light-7: #d1edc4;
+$color-success-light-8: #e1f3d8;
+$color-success-light-9: #f0f9eb;
+$color-success-dark-2: #529b2e;
+$color-warning: #e6a23c;
+$color-warning-light-3: #eebe77;
+$color-warning-light-5: #f3d19e;
+$color-warning-light-7: #f8e3c5;
+$color-warning-light-8: #faecd8;
+$color-warning-light-9: #fdf6ec;
+$color-warning-dark-2: #b88230;
+$color-danger: #f56c6c;
+$color-danger-light-3: #f89898;
+$color-danger-light-5: #fab6b6;
+$color-danger-light-7: #fcd3d3;
+$color-danger-light-8: #fde2e2;
+$color-danger-light-9: #fef0f0;
+$color-danger-dark-2: #c45656;
+$color-error: #f56c6c;
+$color-error-light-3: #f89898;
+$color-error-light-5: #fab6b6;
+$color-error-light-7: #fcd3d3;
+$color-error-light-8: #fde2e2;
+$color-error-light-9: #fef0f0;
+$color-error-dark-2: #c45656;
+$color-info: #909399;
+$color-info-light-3: #b1b3b8;
+$color-info-light-5: #c8c9cc;
+$color-info-light-7: #dedfe0;
+$color-info-light-8: #e9e9eb;
+$color-info-light-9: #f4f4f5;
+$color-info-dark-2: #73767a;
+$bg-color: #ffffff;
+$bg-color-page: #f2f3f5;
+$bg-color-overlay: #ffffff;
+$text-color-primary: #303133;
+$text-color-regular: #606266;
+$text-color-secondary: #909399;
+$text-color-placeholder: #a8abb2;
+$text-color-disabled: #c0c4cc;
+$border-color: #dcdfe6;
+$border-color-light: #e4e7ed;
+$border-color-lighter: #ebeef5;
+$border-color-extra-light: #f2f6fc;
+$border-color-dark: #d4d7de;
+$border-color-darker: #cdd0d6;
+$fill-color: #f0f2f5;
+$fill-color-light: #f5f7fa;
+$fill-color-lighter: #fafafa;
+$fill-color-extra-light: #fafcff;
+$fill-color-dark: #ebedf0;
+$fill-color-darker: #e6e8eb;
+$fill-color-blank: #ffffff;
+
+
+$default-font-list: -apple-system, BlinkMacSystemFont, "Microsoft Yahei", "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$mono-font-list: "Fira Mono", "Cousine", Monaco, Menlo, "Source Code Pro",
+  monospace;
+//$sans-preferred-font-list: "Montserrat", "Roboto", "Source Sans Pro", "Helvetica", $default-font-list;
+$sans-preferred-font-list: $default-font-list;
+
+$nav-width: 25%;
+$infobar-width: 25%;
+$infobar-pagination-width: 64px;
+$article-max-width: 1620px;
+
+
+$single-column-max-width: 1020px;
+
+$nav-title-size: 30px;
+$nav-subtitle-size: 18px;
+$nav-link-size: 20px;
+$nav-footer-size: 12px;
+$post-title-size: 30px;
+$post-subtitle-size: 14px;
+$post-summary-size: 16px;
+$post-body-size: 16px;
+$post-meta-size: 16px;
+$tag-category-title-size: 22px;
+$toc-size: 16px;
+
+$dark-accent: darken($color-fanma, 10%);
+$deep-dark-accent: darken($color-fanma, 50%);
+
+$single-column-max-width: 1020px;
+$single-column-drawer-width: 260px;
+$single-column-nav-title-size: 28px;
+$single-column-nav-subtitle-size: 20px;
+$single-column-nav-link-size: 18px;
+$single-column-nav-footer-size: 13px;
+$single-column-post-title-size: 22px;
+$single-column-post-summary-size: 16px;
+$single-column-post-body-size: 16px;
+$single-column-post-meta-size: 14px;
+$single-column-tag-category-title-size: 14px;
+$single-column-toc-size: 14px;
+
+$h1: 30px;
+$h-diff: 3px;
+
+$nav-item-hover-background-alpha: 0.02;
+$nav-item-hover-indicator-alpha: 0.6;
+$nav-item-hover-color-darken: 0.08%;
+$nav-item-active-background-alpha: 0.02;
+$nav-item-active-color-darken: 0%;

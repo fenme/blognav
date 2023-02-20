@@ -1,0 +1,161 @@
+baseURL = "https://blognav.fanma.eu.org"
+DefaultContentLanguage = "zh-cn" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "zh-cn"
+title = "博客导航"
+copyright = "Copyright © 2023 - "
+theme = "BlogNav"
+# googleAnalytics = "UA-123-45"
+hasCJKLanguage = true
+enableRobotsTXT = true
+uglyurls = true
+relativeURLs = false
+canonifyurls = true
+disableHugoGeneratorInject = true
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
+
+[params]
+subtitle = "作者：黄胜丰 Article by Huang Sheng Feng."
+enableGitalk = true
+enableReadingTime = true
+enableYue = "约"
+enableZi = " 字"
+wenzhang = "文章："
+pian = " 篇"
+zongji = "总计："
+fanma = "这是一个饭吗的博客导航网站"
+fanmai = " - "
+huangshengfeng = "博导网"
+bycloudflare = "CDN by Cloudflare"
+bygithub = "Hosted by GitHub Pages"
+lanmu = "栏目：1 个"
+fanmasite = "网站：黄胜丰的博客小站"
+dizhi = "地址：广西壮族自治区富川瑶族自治县新华乡上坝村"
+banquan = ". All Rights Reserved."
+wangzhi = "网址："
+zuozhe = "作者："
+lianjie = "链接："
+
+
+# Twitter Card and Open Graph settings
+enableOpenGraph = true
+enableTwitterCards = true
+title = "My Blog" # will set 'og:site_name'
+description = "这是一个博客网导航网站，收集整理互联网络上的优秀博客网站信息，便于用户顺畅的访问到相关的博客站点。"  # will set 'og:description'
+keywords = "博客,导航,博导,博客导航,博客导航网"
+keyfan = "饭吗"
+
+[frontmatter]
+lastmod = ["lastmod", ":fileModTime", ":default"]
+
+
+
+[params.gitalk]
+  owner = "huangshengfengblog"
+  repo = "huangshengfengblog.github.io"
+  client_id = "c069847fa67e7f4cc20a"
+  client_secret = "58e32026c58331157dd48569442094ada8cd5d58"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[menu]
+  [[menu.main]]
+    identifier = "excellent"
+    name = "优秀博客"
+	pre = "<i class='linecons-thumbs-up'></i>"
+    weight = 1
+	
+  [[menu.main]]
+    identifier = "recommend"
+    name = "博客推荐"
+	pre = "<i class='linecons-star'></i>"
+    weight = 2
+	
+  [[menu.main]]
+    identifier = "blognav"
+    name = "博客导航"
+	pre = "<i class='linecons-star'></i>"
+    weight = 3
+	
+  [[menu.main]]
+    identifier = "frame"
+    name = "博客框架"
+	pre = "<i class='linecons-star'></i>"
+    weight = 5
+	  [[menu.main]]
+		identifier = "frame-hot"
+		name = "热门框架"
+		parent = "frame"
+		weight = 2
+	
+#     [[menu.main]]
+#    identifier = "fold"
+#    name = "折叠菜单"
+#    pre = "<i class='linecons-doc'></i>"
+#    weight = 8
+#	  [[menu.main]]
+#		identifier = "fold1"
+#		name = "折叠菜单1"
+#		parent = "fold"
+#		weight = 2
+#		[[menu.main]]
+#		identifier = "fold2"
+#		name = "折叠菜单2"
+#		parent = "fold"
+#		weight = 2
+#		[[menu.main]]
+#		identifier = "fold3"
+#		name = "折叠菜单3"
+#		parent = "fold"
+#		weight = 2
+#		[[menu.main]]
+#		identifier = "fold4"
+#		name = "折叠菜单4"
+#		parent = "fold"
+#		weight = 2
+#		[[menu.main]]
+#		identifier = "fold5"
+#		name = "折叠菜单5"
+#		parent = "fold"
+#		weight = 2
+#		[[menu.main]]
+#		identifier = "fold6"
+#		name = "折叠菜单6"
+#		parent = "fold"
+#		weight = 2
+#		[[menu.main]]
+#		identifier = "fold7"
+#		name = "折叠菜单7"
+#		parent = "fold"
+#		weight = 2
+#		[[menu.main]]
+#		identifier = "fold8"
+#		name = "折叠菜单8"
+#		parent = "fold"
+#		weight = 2
+#		[[menu.main]]
+#		identifier = "fold9"
+#		name = "折叠菜单9"
+#		parent = "fold"
+#		weight = 2
+		
+  [[menu.main]]
+    identifier = "collects"
+    name = "博主收藏"
+	pre = "<i class='linecons-star'></i>"
+    weight = 800

@@ -1,0 +1,29 @@
+@media (max-width:1720px) {
+    .link {
+        width: 22%;
+    }
+}
+
+@media (max-width:1520px) {
+    .link {
+        width: 30%;
+    }
+}
+
+@media (max-width:1220px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media (max-width:920px) {
+    .link {
+        width: 45%;
+    }
+}
+
+@media (max-width:598px) {
+    .link {
+        width: 100%;
+    }
+}

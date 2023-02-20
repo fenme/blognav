@@ -1,0 +1,26 @@
+<div class="info">
+    <div class="info-fanma">
+	<h2>导航信息</h2>
+        <ul>
+			<li><span class="l">{{ i18n "lanmushuliang" }}</span><span class="r">{{ len ( .Site.Sections ) | dict "Nums" | T "Sections" }}</span></li>
+			<li><span class="l">{{ i18n "shoulu" }}</span><span class="r">{{ len ( .Site.RegularPages ) | dict "Nums" | T "RegularPages" }}</span></li>
+            <li><span class="l">网站运行：</span><span id="fanmatime"></span></li>
+        </ul>
+     </div>
+</div>
+<script>
+    var now = new Date();
+    function fanmatime() {
+        var fanma= new Date("01/15/2023 00:00:00");
+        now.setTime(now.getTime()+250);
+        days = (now - fanma ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - fanma ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        minutes = (now - fanma ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); mnum = Math.floor(minutes);
+        if(String(mnum).length ==1 ){ mnum = "0" + mnum; } seconds = (now - fanma ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); snum = Math.round(seconds);
+        if(String(snum).length ==1 ){ snum = "0" + snum; };
+        var timess = dnum + '{{ T "timeds" }}' + hnum + '{{ T "timehs" }}' + mnum + '{{ T "timems" }}' + snum + '{{ T "timems" }}' ;
+        document.getElementById("fanmatime").innerHTML = timess ;
+    }
+    fanmatime();
+    setInterval("fanmatime()",250);
+</script>
