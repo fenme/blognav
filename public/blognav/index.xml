@@ -2,37 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blognavs on 博客导航</title>
-    <link>https://blognav.fanma.eu.org/blognav.html</link>
+    <link>./blognav.html</link>
     <description>Recent content in Blognavs on 博客导航</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright © 2023 - </copyright>
-    <lastBuildDate>Thu, 09 Feb 2023 11:10:41 +0800</lastBuildDate><atom:link href="https://blognav.fanma.eu.org/blognav/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Feb 2023 15:25:17 +0800</lastBuildDate><atom:link href="./blognav/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>湘铭呀！</title>
-      <link>https://blognav.fanma.eu.org/blognav/xiangming.site.html</link>
+      <link>./blognav/xiangming.site.html</link>
       <pubDate>Thu, 09 Feb 2023 11:10:41 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/blognav/xiangming.site.html</guid>
+      <guid>./blognav/xiangming.site.html</guid>
       <description>湘铭的秘密基地啊（其实就是湘铭记录生活的小窝啦）。</description>
     </item>
     
     <item>
       <title>博客导航 Blognav</title>
-      <link>https://blognav.fanma.eu.org/blognav/blognav.fanma.eu.org.html</link>
+      <link>./blognav/blognav.fanma.eu.org.html</link>
       <pubDate>Wed, 18 Jan 2023 16:21:05 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/blognav/blognav.fanma.eu.org.html</guid>
+      <guid>./blognav/blognav.fanma.eu.org.html</guid>
       <description>这是一个专门为博客提供导航的网站。</description>
     </item>
     
     <item>
       <title>小熊导航</title>
-      <link>https://blognav.fanma.eu.org/blognav/www.saphead.cn.html</link>
+      <link>./blognav/www.saphead.cn.html</link>
       <pubDate>Sat, 14 Jan 2023 23:25:17 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/blognav/www.saphead.cn.html</guid>
+      <guid>./blognav/www.saphead.cn.html</guid>
       <description>收录个人博客，促进博友之间的交流和互动。</description>
+    </item>
+    
+    <item>
+      <title>FanMa</title>
+      <link>./blognav/adfd.html</link>
+      <pubDate>Mon, 20 Feb 2023 15:25:17 +0800</pubDate>
+      
+      <guid>./blognav/adfd.html</guid>
+      <description>不忘记自己的初心，去做一切美好的事情！</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>./blognav/readme.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./blognav/readme.html</guid>
+      <description>自助链接 在此页面添加一个文件，文件名建议以你网站的域名为名建立一个 .md 文件。（示例：fanma.eu.org.md） 在文件里根据下面的格式填写</description>
     </item>
     
   </channel>

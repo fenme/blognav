@@ -2,370 +2,379 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>博客导航</title>
-    <link>https://blognav.fanma.eu.org/</link>
+    <link>./</link>
     <description>Recent content on 博客导航</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright © 2023 - </copyright>
-    <lastBuildDate>Thu, 09 Feb 2023 11:10:41 +0800</lastBuildDate><atom:link href="https://blognav.fanma.eu.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Feb 2023 15:25:17 +0800</lastBuildDate><atom:link href="./index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/gohugo.io.html</link>
+      <link>./frame-hot/gohugo.io.html</link>
       <pubDate>Mon, 16 Jan 2023 14:38:00 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/gohugo.io.html</guid>
+      <guid>./frame-hot/gohugo.io.html</guid>
       <description>快速、简洁且高效的博客框架，适合爱折腾的人。</description>
     </item>
     
     <item>
       <title>黄胜丰</title>
-      <link>https://blognav.fanma.eu.org/common/fanma.eu.org.html</link>
+      <link>./common/fanma.eu.org.html</link>
       <pubDate>Sat, 14 Jan 2023 23:02:33 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/common/fanma.eu.org.html</guid>
+      <guid>./common/fanma.eu.org.html</guid>
       <description>黄胜丰的纪实生活博客网站。</description>
     </item>
     
     <item>
       <title>Hexo</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/hexo.io.html</link>
+      <link>./frame-hot/hexo.io.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:29 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/hexo.io.html</guid>
+      <guid>./frame-hot/hexo.io.html</guid>
       <description>新手容易上手，拥有众多主题的开源博客框架。</description>
     </item>
     
     <item>
       <title>Jekyll</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/jekyllrb.com.html</link>
+      <link>./frame-hot/jekyllrb.com.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:30 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/jekyllrb.com.html</guid>
+      <guid>./frame-hot/jekyllrb.com.html</guid>
       <description>Jekyll 将纯文本转化为静态网站和博客。</description>
     </item>
     
     <item>
       <title>Nextjs</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/nextjs.org.html</link>
+      <link>./frame-hot/nextjs.org.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:30 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/nextjs.org.html</guid>
+      <guid>./frame-hot/nextjs.org.html</guid>
       <description>Next.js是一个轻量级React服务端渲染应用框架。</description>
     </item>
     
     <item>
       <title>小N同学</title>
-      <link>https://blognav.fanma.eu.org/common/www.imcharon.com.html</link>
+      <link>./common/www.imcharon.com.html</link>
       <pubDate>Tue, 07 Feb 2023 21:53:46 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/common/www.imcharon.com.html</guid>
+      <guid>./common/www.imcharon.com.html</guid>
       <description>资源分享、博客美化、教程提供、网络技术分享。</description>
     </item>
     
     <item>
       <title>Echo</title>
-      <link>https://blognav.fanma.eu.org/common/www.liveout.cn.html</link>
+      <link>./common/www.liveout.cn.html</link>
       <pubDate>Sat, 14 Jan 2023 23:05:17 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/common/www.liveout.cn.html</guid>
+      <guid>./common/www.liveout.cn.html</guid>
       <description>一位在读 物联网工程 (IOT) 专业的优秀大学生。</description>
     </item>
     
     <item>
       <title>WebStack</title>
-      <link>https://blognav.fanma.eu.org/recommend/liveout.html</link>
+      <link>./recommend/liveout.html</link>
       <pubDate>Sat, 14 Jan 2023 23:05:17 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/recommend/liveout.html</guid>
+      <guid>./recommend/liveout.html</guid>
       <description>WebStack.cc - 设计师网址导航。</description>
     </item>
     
     <item>
       <title>Tristan Rice</title>
-      <link>https://blognav.fanma.eu.org/recommend/fn.html</link>
+      <link>./recommend/fn.html</link>
       <pubDate>Sun, 15 Jan 2023 03:58:20 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/recommend/fn.html</guid>
+      <guid>./recommend/fn.html</guid>
       <description>Software Engineer - ML Infra, Modeling, Security</description>
     </item>
     
     <item>
       <title>Bootstrap 图标库</title>
-      <link>https://blognav.fanma.eu.org/recommend/icons.bootcss.com.html</link>
+      <link>./recommend/icons.bootcss.com.html</link>
       <pubDate>Sat, 14 Jan 2023 23:02:33 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/recommend/icons.bootcss.com.html</guid>
+      <guid>./recommend/icons.bootcss.com.html</guid>
       <description>包含 1800 多个图标的免费高质量的开源图标库。</description>
     </item>
     
     <item>
       <title>定制 Bootstrap</title>
-      <link>https://blognav.fanma.eu.org/recommend/v3.bootcss.com.html</link>
+      <link>./recommend/v3.bootcss.com.html</link>
       <pubDate>Sat, 14 Jan 2023 23:02:33 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/recommend/v3.bootcss.com.html</guid>
+      <guid>./recommend/v3.bootcss.com.html</guid>
       <description>通过自定属于你自己的 Bootstrap 版本吧。</description>
     </item>
     
     <item>
       <title>湘铭呀！</title>
-      <link>https://blognav.fanma.eu.org/blognav/xiangming.site.html</link>
+      <link>./blognav/xiangming.site.html</link>
       <pubDate>Thu, 09 Feb 2023 11:10:41 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/blognav/xiangming.site.html</guid>
+      <guid>./blognav/xiangming.site.html</guid>
       <description>湘铭的秘密基地啊（其实就是湘铭记录生活的小窝啦）。</description>
     </item>
     
     <item>
       <title>杜老师说</title>
-      <link>https://blognav.fanma.eu.org/common/dusays.com.html</link>
+      <link>./common/dusays.com.html</link>
       <pubDate>Tue, 07 Feb 2023 23:10:47 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/common/dusays.com.html</guid>
+      <guid>./common/dusays.com.html</guid>
       <description>云计算运维讲师杜老师私人技术博客。</description>
     </item>
     
     <item>
       <title>木木木木木</title>
-      <link>https://blognav.fanma.eu.org/recommend/immmmm.com.html</link>
+      <link>./recommend/immmmm.com.html</link>
       <pubDate>Tue, 07 Feb 2023 23:04:04 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/recommend/immmmm.com.html</guid>
+      <guid>./recommend/immmmm.com.html</guid>
       <description>木木木木木 - 这是一个非常有博客。</description>
     </item>
     
     <item>
       <title>BoowindCSS</title>
-      <link>https://blognav.fanma.eu.org/collects/boowindcss.js.org.html</link>
+      <link>./collects/boowindcss.js.org.html</link>
       <pubDate>Tue, 07 Feb 2023 22:59:27 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/collects/boowindcss.js.org.html</guid>
+      <guid>./collects/boowindcss.js.org.html</guid>
       <description>A set of Bootstrap Components built with TailwindCSS to kickstart your next Tailwind Project.</description>
     </item>
     
     <item>
       <title>免费在线短信接收</title>
-      <link>https://blognav.fanma.eu.org/collects/www.freereceivesms.com.html</link>
+      <link>./collects/www.freereceivesms.com.html</link>
       <pubDate>Tue, 07 Feb 2023 22:56:14 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/collects/www.freereceivesms.com.html</guid>
+      <guid>./collects/www.freereceivesms.com.html</guid>
       <description>短信接收是一种免费服务，用于在线接收手机短信验证码的接码平台。</description>
     </item>
     
     <item>
       <title>Universe of UI</title>
-      <link>https://blognav.fanma.eu.org/collects/uiverse.io.html</link>
+      <link>./collects/uiverse.io.html</link>
       <pubDate>Tue, 07 Feb 2023 22:50:08 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/collects/uiverse.io.html</guid>
+      <guid>./collects/uiverse.io.html</guid>
       <description>Open-Source UI elements - made with CSS and HTML.</description>
     </item>
     
     <item>
       <title>博客导航 Blognav</title>
-      <link>https://blognav.fanma.eu.org/blognav/blognav.fanma.eu.org.html</link>
+      <link>./blognav/blognav.fanma.eu.org.html</link>
       <pubDate>Wed, 18 Jan 2023 16:21:05 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/blognav/blognav.fanma.eu.org.html</guid>
+      <guid>./blognav/blognav.fanma.eu.org.html</guid>
       <description>这是一个专门为博客提供导航的网站。</description>
     </item>
     
     <item>
       <title>张洪Heo</title>
-      <link>https://blognav.fanma.eu.org/recommend/blog.zhheo.com.top.html</link>
+      <link>./recommend/blog.zhheo.com.top.html</link>
       <pubDate>Mon, 16 Jan 2023 23:20:41 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/recommend/blog.zhheo.com.top.html</guid>
+      <guid>./recommend/blog.zhheo.com.top.html</guid>
       <description>一名 设计师、产品经理、独立开发者、博主。</description>
     </item>
     
     <item>
       <title>Elzzach</title>
-      <link>https://blognav.fanma.eu.org/recommend/blog.elzzach.top.html</link>
+      <link>./recommend/blog.elzzach.top.html</link>
       <pubDate>Mon, 16 Jan 2023 23:20:14 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/recommend/blog.elzzach.top.html</guid>
+      <guid>./recommend/blog.elzzach.top.html</guid>
       <description>一个爱好视觉效果的入门小前端。</description>
     </item>
     
     <item>
       <title>远方博客</title>
-      <link>https://blognav.fanma.eu.org/recommend/blog.ltyuanfang.cn.html</link>
+      <link>./recommend/blog.ltyuanfang.cn.html</link>
       <pubDate>Mon, 16 Jan 2023 20:37:20 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/recommend/blog.ltyuanfang.cn.html</guid>
+      <guid>./recommend/blog.ltyuanfang.cn.html</guid>
       <description>这是聆听远方记录和分享生活的个人博客。</description>
     </item>
     
     <item>
       <title>迷途通</title>
-      <link>https://blognav.fanma.eu.org/common/www.mitutong.com.html</link>
+      <link>./common/www.mitutong.com.html</link>
       <pubDate>Mon, 16 Jan 2023 17:43:11 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/common/www.mitutong.com.html</guid>
+      <guid>./common/www.mitutong.com.html</guid>
       <description>迷途通 拥抱多元世界，构筑全球视野。</description>
     </item>
     
     <item>
       <title>Docsify.js.org</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/docsify.js.org.html</link>
+      <link>./frame-hot/docsify.js.org.html</link>
       <pubDate>Mon, 16 Jan 2023 16:43:14 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/docsify.js.org.html</guid>
+      <guid>./frame-hot/docsify.js.org.html</guid>
       <description>Docsify 一个神奇的文档网站生成器。。</description>
     </item>
     
     <item>
       <title>Zola</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/www.getzola.org.html</link>
+      <link>./frame-hot/www.getzola.org.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:40 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/www.getzola.org.html</guid>
+      <guid>./frame-hot/www.getzola.org.html</guid>
       <description>您的一站式静态站点引擎 Zola 。</description>
     </item>
     
     <item>
       <title>React Static</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/react.docschina.org.html</link>
+      <link>./frame-hot/react.docschina.org.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:39 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/react.docschina.org.html</guid>
+      <guid>./frame-hot/react.docschina.org.html</guid>
       <description>React Static是一个渐进式静态站点生成器。</description>
     </item>
     
     <item>
       <title>MdBook</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/github.com.rust-lang.mdbook.html</link>
+      <link>./frame-hot/github.com.rust-lang.mdbook.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:38 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/github.com.rust-lang.mdbook.html</guid>
+      <guid>./frame-hot/github.com.rust-lang.mdbook.html</guid>
       <description>MdBook 是一个命令行工具，可以将 Markdown 文档，变成 HTML 网站。</description>
     </item>
     
     <item>
       <title>SvelteKit</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/kit.svelte.dev.html</link>
+      <link>./frame-hot/kit.svelte.dev.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:38 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/kit.svelte.dev.html</guid>
+      <guid>./frame-hot/kit.svelte.dev.html</guid>
       <description>SvelteKit 是一个用 Svelte 构建 Web 应用程序的框架。</description>
     </item>
     
     <item>
       <title>Pelican</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/getpelican.com.html</link>
+      <link>./frame-hot/getpelican.com.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:37 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/getpelican.com.html</guid>
+      <guid>./frame-hot/getpelican.com.html</guid>
       <description>Pelican 是一个静态站点生成器，不需要数据库或服务器端逻辑。</description>
     </item>
     
     <item>
       <title>Eleventy</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/11ty.dev.html</link>
+      <link>./frame-hot/11ty.dev.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:36 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/11ty.dev.html</guid>
+      <guid>./frame-hot/11ty.dev.html</guid>
       <description>Eleventy，一个更简单的静态站点生成器。</description>
     </item>
     
     <item>
       <title>Umijs.org</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/umijs.org.html</link>
+      <link>./frame-hot/umijs.org.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:36 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/umijs.org.html</guid>
+      <guid>./frame-hot/umijs.org.html</guid>
       <description>用 Umi 带给你简单而愉悦的 Web 开发体验。</description>
     </item>
     
     <item>
       <title>MkDocs</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/www.mkdocs.org.html</link>
+      <link>./frame-hot/www.mkdocs.org.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:35 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/www.mkdocs.org.html</guid>
+      <guid>./frame-hot/www.mkdocs.org.html</guid>
       <description>MkDocs 是一个用于创建项目文档的快速,简单,完美华丽的静态站点生成器。</description>
     </item>
     
     <item>
       <title>Astro.build</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/astro.build.html</link>
+      <link>./frame-hot/astro.build.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:34 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/astro.build.html</guid>
+      <guid>./frame-hot/astro.build.html</guid>
       <description>Astro是一个用于构建快速、以内容为中心的网站的一体式web框架。</description>
     </item>
     
     <item>
       <title>Vuepress</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/vuepress.vuejs.org.html</link>
+      <link>./frame-hot/vuepress.vuejs.org.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:34 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/vuepress.vuejs.org.html</guid>
+      <guid>./frame-hot/vuepress.vuejs.org.html</guid>
       <description>Vuepress 由 Vue 驱动的静态网站生成器。</description>
     </item>
     
     <item>
       <title>GitBook</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/www.gitbook.com.html</link>
+      <link>./frame-hot/www.gitbook.com.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:33 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/www.gitbook.com.html</guid>
+      <guid>./frame-hot/www.gitbook.com.html</guid>
       <description>GitBook 让您从开始到发布都可以轻松地规划、集中和共享知识。</description>
     </item>
     
     <item>
       <title>Docusaurus</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/docusaurus.io.html</link>
+      <link>./frame-hot/docusaurus.io.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:32 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/docusaurus.io.html</guid>
+      <guid>./frame-hot/docusaurus.io.html</guid>
       <description>Docusaurus 快速构建优化的网站，专注于您的内容。</description>
     </item>
     
     <item>
       <title>Slatedocs</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/slatedocs.github.io.slate.html</link>
+      <link>./frame-hot/slatedocs.github.io.slate.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:32 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/slatedocs.github.io.slate.html</guid>
+      <guid>./frame-hot/slatedocs.github.io.slate.html</guid>
       <description>Slate 可帮助您创建美观，智能，响应式的 API 文档。</description>
     </item>
     
     <item>
       <title>Gatsby</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/gatsbyjs.org.html</link>
+      <link>./frame-hot/gatsbyjs.org.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:31 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/gatsbyjs.org.html</guid>
+      <guid>./frame-hot/gatsbyjs.org.html</guid>
       <description>我们的使命是让网站建设变得有趣。</description>
     </item>
     
     <item>
       <title>Nuxt</title>
-      <link>https://blognav.fanma.eu.org/frame-hot/nuxtjs.org.html</link>
+      <link>./frame-hot/nuxtjs.org.html</link>
       <pubDate>Mon, 16 Jan 2023 15:05:31 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/frame-hot/nuxtjs.org.html</guid>
+      <guid>./frame-hot/nuxtjs.org.html</guid>
       <description>Nuxt 一个开源框架，使web开发变得简单而强大。</description>
     </item>
     
     <item>
       <title>小熊导航</title>
-      <link>https://blognav.fanma.eu.org/blognav/www.saphead.cn.html</link>
+      <link>./blognav/www.saphead.cn.html</link>
       <pubDate>Sat, 14 Jan 2023 23:25:17 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/blognav/www.saphead.cn.html</guid>
+      <guid>./blognav/www.saphead.cn.html</guid>
       <description>收录个人博客，促进博友之间的交流和互动。</description>
     </item>
     
     <item>
-      <title>Website</title>
-      <link>https://blognav.fanma.eu.org/website.html</link>
-      <pubDate>Mon, 16 Jan 2023 14:46:11 +0800</pubDate>
+      <title>FanMa</title>
+      <link>./blognav/adfd.html</link>
+      <pubDate>Mon, 20 Feb 2023 15:25:17 +0800</pubDate>
       
-      <guid>https://blognav.fanma.eu.org/website.html</guid>
-      <description>https://gohugo.io/ https://hexo.io/ https://nextjs.org/ https://jekyllrb.com/ http://gatsbyjs.org/ https://nuxtjs.org/ https://v2.docusaurus.io/ https://slatedocs.github.io/slate/ https://www.gitbook.com/ https://astro.build/ https://astro.build/ https://vuepress.vuejs.org/ http://www.mkdocs.org/ https://umijs.org/ https://11ty.dev/ http://blog.getpelican.com/ https://github.com/rust-lang/mdBook https://kit.svelte.dev/ https://react-static.js.org/ https://www.getzola.org/</description>
+      <guid>./blognav/adfd.html</guid>
+      <description>不忘记自己的初心，去做一切美好的事情！</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>./blognav/readme.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./blognav/readme.html</guid>
+      <description>自助链接 在此页面添加一个文件，文件名建议以你网站的域名为名建立一个 .md 文件。（示例：fanma.eu.org.md） 在文件里根据下面的格式填写</description>
     </item>
     
   </channel>
