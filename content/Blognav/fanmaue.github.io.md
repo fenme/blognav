@@ -1,8 +1,9 @@
 ---
-title: "FanMa"
-description: "fanmaue.github.io"
-featured_image: "/images/logos/Avatar.jpg"
-date: 2023-02-20T23:25:17+08:00
+title: "博客导航 Blognav"
+description: "https://Blognav.fanma.eu.org"
+featured_image: "./images/logos/blognav.fanma.eu.org.png"
+weight: 800
+date: 2023-01-18T16:21:05+08:00
 ---
 
-不忘记自己的初心，去做一切美好的事情！
+这是一个专门为博客提供导航的网站。
