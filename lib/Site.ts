@@ -2,9 +2,10 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Info from '@/components/Info'
+import { paths } from './Paths';
 
 export const info = Info();
-export const Directory = path.join(process.cwd(), info.path)
+export const Directory = path.join(process.cwd())
 
 export async function getSortedSitesData() {
 
@@ -12,8 +13,9 @@ export async function getSortedSitesData() {
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name)
 
-  const posts = (await Promise.all(subdirectories.map(async (subdirectory) => {
+  const posts = (await Promise.all(paths.map(async (subdirectory) => {
     const directoryPath = path.join(Directory, subdirectory)
+
     const filenames = fs.readdirSync(directoryPath)
       .filter(filename => filename.endsWith('.md'))
 
@@ -42,8 +44,8 @@ export async function getSortedSitesData() {
             return -1
         }
     })
+
   }))).flat();
 
   return posts
 }
-
