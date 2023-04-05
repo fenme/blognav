@@ -1,0 +1,22 @@
+.maw {
+    flex: 1;
+    display: flex;
+}
+
+.nav {
+    width: 20rem;
+    min-height: 100vh;
+    background: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+}
+
+.main {
+    min-height: 100vh;
+    color: #3a3a3a;
+    font-size: 1.3rem;
+    flex: 1;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
