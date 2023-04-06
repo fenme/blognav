@@ -1,7 +1,6 @@
-import Link from 'next/link';
-import Info from './Info';
-import Chevron from './Chevron';
-import Sorts from './sorts';
+import Info from '@/components/Info';
+import Sorts from '@/components/sorts';
+import Chevron from '@/components/Chevron';
 import InfoTotal from './InfoTotal';
 
 export default function NavBar() {

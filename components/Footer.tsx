@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Info from './Info';
 
-export default function NavBar() {
+export default function Footer() {
     const info = Info();
     return (
         <footer className='footer'>

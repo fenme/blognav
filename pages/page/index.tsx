@@ -6,6 +6,7 @@ import { buildTime } from '@/components/BuildTime'
 import Info from '@/components/Info'
 import TopButton from '@/components/TopButton'
 import { getSortedSitesData } from '@/lib/Site'
+import { total } from '@/lib/total'
 
 interface Props {
   allSites: {
@@ -14,37 +15,6 @@ interface Props {
     icon: string
     desc: number
   }[];
-  collects: {
-    name: string
-    link: string
-    icon: string
-    desc: number
-  }[];
-  recommend: {
-    name: string
-    link: string
-    icon: string
-    desc: number
-  }[];
-  blognav: {
-    name: string
-    link: string
-    icon: string
-    desc: number
-  }[];
-  framehot: {
-    name: string
-    link: string
-    icon: string
-    desc: number
-  }[];
-  chatgpt: {
-    name: string
-    link: string
-    icon: string
-    desc: number
-  }[];
-  totalsites: number;
 }
 
 export default function Home({  allSites }: Props) {
@@ -100,6 +70,7 @@ export default function Home({  allSites }: Props) {
           key="product-jsonld"
         />
       </Head>
+
       <section className='book'>
 
         <div className='column'>
@@ -120,6 +91,7 @@ export default function Home({  allSites }: Props) {
         </div>
 
       </section>
+
       <section className='elevator'>
         <TopButton />
       </section>
@@ -128,6 +100,7 @@ export default function Home({  allSites }: Props) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
+  const totalsites = await total();
 
     const allSitesData = await getSortedSitesData();
     const allSites = allSitesData.map(site => {
@@ -140,6 +113,7 @@ export const getStaticProps: GetStaticProps = async () => {
     return {
       props: {
         allSites,
+        totalsites,
       }
     }
 }
