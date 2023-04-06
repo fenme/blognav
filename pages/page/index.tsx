@@ -7,52 +7,47 @@ import Info from '@/components/Info'
 import TopButton from '@/components/TopButton'
 import { getSortedSitesData } from '@/lib/Site'
 
-export default function Home({
-    allSites,
-    collects,
-    recommend,
-    blognav,
-    framehot,
-    chatgpt,
-  }: {
-    allSites: {
-      name: string
-      link: string
-      icon: string
-      desc: number
-    }[];
-    collects: {
-      name: string
-      link: string
-      icon: string
-      desc: number
-    }[];
-    recommend: {
-      name: string
-      link: string
-      icon: string
-      desc: number
-    }[];
-    blognav: {
-      name: string
-      link: string
-      icon: string
-      desc: number
-    }[];
-    framehot: {
-      name: string
-      link: string
-      icon: string
-      desc: number
-    }[];
-    chatgpt: {
-      name: string
-      link: string
-      icon: string
-      desc: number
-    }[];
-    totalsites: number;
-  }) {
+interface Props {
+  allSites: {
+    name: string
+    link: string
+    icon: string
+    desc: number
+  }[];
+  collects: {
+    name: string
+    link: string
+    icon: string
+    desc: number
+  }[];
+  recommend: {
+    name: string
+    link: string
+    icon: string
+    desc: number
+  }[];
+  blognav: {
+    name: string
+    link: string
+    icon: string
+    desc: number
+  }[];
+  framehot: {
+    name: string
+    link: string
+    icon: string
+    desc: number
+  }[];
+  chatgpt: {
+    name: string
+    link: string
+    icon: string
+    desc: number
+  }[];
+  totalsites: number;
+}
+
+export default function Home({  allSites }: Props) {
   // const title = [ siteTitle, name ];
   const info = Info();
   const namea = info.siteTitle;

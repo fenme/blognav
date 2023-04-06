@@ -22,7 +22,7 @@ export async function siteSort() {
     });
 
   // 输出排序结果
-//   console.log(`排序：${sitesWithStar.map((site) => [site.star, site.link])}`);
+  console.log(`排序：${sortedSites.map((site) => [site.star])}`);
 
   // 返回最终的排序结果
   return sortedSites;

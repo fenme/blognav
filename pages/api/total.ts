@@ -13,7 +13,6 @@ export default async function handler(
 
   const categories = new Set(allPostsData.map((post) => post.sort));
   const numSorts = categories.size;
-
   const totalPosts = formattedPosts.length;
 
   res.status(200).json({ totalPosts, numSorts });

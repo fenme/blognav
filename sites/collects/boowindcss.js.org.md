@@ -1,7 +1,7 @@
 ---  
 name: BoowindCSS
 link: https://Boowindcss.js.org
-icon: ./images/logos/boowindcss.js.org.svg
+icon: /images/logos/boowindcss.js.org.svg
 desc: A set of Bootstrap Components built with TailwindCSS to kickstart your next Tailwind Project.
 sort: collects
 date: 2023-02-07

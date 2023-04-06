@@ -2,8 +2,7 @@
 
 // const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
-    trailingSlash: false,
-    
+    trailingSlash: true,    
     // pageExtensions: ['html'],
     // exportPathMap: async function (defaultPathMap, {dev, dir, outDir}) {
     //   return {
