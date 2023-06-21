@@ -1,0 +1,8 @@
+---  
+name: ChatGPT中文版
+link: http://www.chatgpt007.cn
+icon: /images/logos/two.openai.com.svg
+desc: ChatGPT中文版，专为国内用户打造，基于ChatGPT官网的3.5模型开发。
+sort: chatgpt
+date: 2023-06-21
+---  
