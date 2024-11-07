@@ -42,6 +42,31 @@ fi
 
 # 更新软件包列表
 echo "更新软件包列表 ..."
-sudo apt update
+apt update
 
 echo "源替换完成！"
+
+
+# 安装 sudo
+echo "安装 sudo ..."
+apt install -y sudo
+
+# 安装 curl
+echo "安装 curl ..."
+apt install -y curl
+
+# 检查 sudo 和 curl 是否成功安装
+if command -v sudo &> /dev/null; then
+    echo "sudo 安装成功！"
+else
+    echo "sudo 安装失败！"
+    exit 1
+fi
+
+if command -v curl &> /dev/null; then
+    echo "curl 安装成功！"
+else
+    echo "curl 安装失败！"
+    exit 1
+fi
+
