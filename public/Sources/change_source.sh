@@ -33,7 +33,7 @@ done
 
 # 下载并替换 sources.list
 echo "从 $SOURCE_URL 下载新的 sources.list 文件 ..."
-if curl -s -o /etc/apt/sources.list "$SOURCE_URL"; then
+if wget -q -O /etc/apt/sources.list "$SOURCE_URL"; then
     echo "新的 sources.list 文件已下载并替换。"
 else
     echo "下载失败，请检查 URL 或网络连接。"
