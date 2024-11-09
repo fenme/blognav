@@ -15,8 +15,8 @@ sudo cp -r /etc/apt/sources.list.d "$BACKUP_DIR/sources.list.d.backup"
 declare -A SOURCES
 SOURCES=(
     ["官方源"]="https://blognav.fanma.eu.org/Sources/Debian11/Debian/sources.list"
-    ["中科大源"]="https://blognav.fanma.eu.org/Sources/USTC/Debian11/sources.list"
-    ["清华源"]="https://blognav.fanma.eu.org/Sources/Tsinghua/Debian11/sources.list"
+    ["中科大源"]="https://blognav.fanma.eu.org/Sources/Debian11/USTC/sources.list"
+    ["清华源"]="https://blognav.fanma.eu.org/Sources/Debian11/Tsinghua/sources.list"
 )
 
 # 显示源列表
