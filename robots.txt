@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://fanmav.github.io
+
+# Sitemaps
+Sitemap: https://fanmav.github.io/sitemap.xml
