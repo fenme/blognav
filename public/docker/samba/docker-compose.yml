@@ -1,0 +1,14 @@
+services:
+  samba:
+    image: fanma/samba:latest
+    container_name: samba
+    environment:
+      SHARENAME: "Data"
+      USERNAME: "smb001"
+      PASSWORD: "111111"
+    ports:
+      - 445:445
+    volumes:
+      - /home/rootya/docker/AgentDVR:/shared_folder
+      - /home/rootya/docker/AgentDVR/logs:/var/log/samba
+    restart: unless-stopped
