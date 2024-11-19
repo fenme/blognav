@@ -1,0 +1,30 @@
+services:
+  codeprojectai:
+    image: codeproject/ai-server:latest
+    container_name: codeproject-ai
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai               # 设置时区，可根据需要修改
+      - DOTNET_EnableDiagnostics=0     # 关闭诊断日志
+    volumes:
+      - ./data:/etc/codeprojectai/data  # 持久化数据目录
+      - ./logs:/etc/codeprojectai/logs  # 持久化日志目录
+    ports:
+      - "32168:32168"                  # 映射 CodeProject.AI Server 端口
+    deploy:
+      resources:
+        limits:
+          cpus: '2'                    # 限制 CPU 核数
+          memory: 4g                   # 限制内存使用
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:32168/status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - ai_network
+
+networks:
+  ai_network:
+    driver: bridge
